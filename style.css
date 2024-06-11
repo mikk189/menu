@@ -1,0 +1,35 @@
+
+.title h1{
+	font-size: 40px;
+	color: #fcfffc;
+	margin-bottom: 50px;
+}
+.list_menu a{
+	font-size: 25px;
+	color: #fcfffc;
+
+}
+.list_menu li{
+	margin: 20px 0;
+}
+.list_menu{
+	margin-bottom: 50px;
+}
+.menu{
+	padding: 25vh 50px;
+	background: rgba(20, 20, 20, 0.5);
+	height: 100vh;
+	border-right: 7px solid #fcfffc;
+	position: fixed;
+	left: -346px;
+	transition: 0.4s ease;
+}
+.menu:hover{
+	left: 0;
+	transition: 0.5s ease;
+}
+.content{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
